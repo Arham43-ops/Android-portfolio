@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Neon / Cyberpunk Palette -->
+    <color name="primary_bg">#0F172A</color>
+    <color name="card_bg">#1E293B</color>
+    <color name="accent_primary">#6366F1</color> <!-- Indigo -->
+    <color name="accent_secondary">#EC4899</color> <!-- Pink -->
+    <color name="accent_tertiary">#10B981</color> <!-- Emerald -->
+    
+    <!-- Text -->
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="text_hint">#64748B</color>
+
+    <color name="glass_stroke">#33FFFFFF</color>
+
+    <!-- Compatibility/Aliases -->
+    <color name="primary_dark">@color/primary_bg</color>
+    <color name="secondary_dark">@color/card_bg</color>
+
+    <color name="accent_blue">@color/accent_primary</color>
+    <color name="accent_purple">@color/accent_secondary</color>
+    <color name="accent_teal">@color/accent_tertiary</color>
+</resources>
