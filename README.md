@@ -19,15 +19,6 @@
 
 ---
 
-## 📸 Screen Showcase
-
-| **Dashboard** | **About Me** | **Experience** |
-|:---:|:---:|:---:|
-| A central hub with staggered grid navigation. | Personal bio with circular profile styling. | Timeline view of my professional journey. |
-| *[Add Screenshot]* | *[Add Screenshot]* | *[Add Screenshot]* |
-
----
-
 ## 🛠️ Tech Stack
 
 ### Android Development
