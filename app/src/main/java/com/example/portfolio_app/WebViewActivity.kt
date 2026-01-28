@@ -17,7 +17,9 @@ class WebViewActivity : AppCompatActivity() {
         
         val webView = findViewById<WebView>(R.id.webView)
         webView.webViewClient = WebViewClient() // Keeps navigation inside the app
+        webView.webChromeClient = android.webkit.WebChromeClient() // Better media handling
         webView.settings.javaScriptEnabled = true
+        webView.settings.domStorageEnabled = true
         webView.loadUrl(url)
     }
 }

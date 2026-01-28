@@ -26,6 +26,8 @@
         <activity android:name=".SkillsActivity" />
         <activity android:name=".SocialHubActivity" />
         <activity android:name=".ContactActivity" />
+        <activity android:name=".YouTubeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity android:name=".WebViewActivity" />
     </application>
 

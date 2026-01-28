@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .section {
+            margin-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .section:last-child {
+            border-bottom: none;
+        }
+        .job-title {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .company {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li::before {
+            content: "• ";
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header style="text-align: center; margin-bottom: 30px;">
+            <h1>Arham Topiwala</h1>
+            <p>Android Developer | Tech Enthusiast</p>
+        </header>
+
+        <div class="section">
+            <h2>Summary</h2>
+            <p>Passionate Android Developer with experience in building modern mobile applications. Skilled in Kotlin, Java, and Material Design.</p>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <div class="job">
+                <p class="job-title">Senior Android Developer</p>
+                <p class="company">Tech Innovations Inc. | 2023 - Present</p>
+                <ul>
+                    <li>Lead developer for flagship consumer app with 1M+ downloads.</li>
+                    <li>Implemented modern architecture using Jetpack Compose and MVVM.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="job">
+                <p class="job-title">Bachelor of Science in Computer Science</p>
+                <p class="company">University of Technology | 2019 - 2023</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Kotlin, Java, C++</li>
+                <li>Android SDK, Jetpack Compose</li>
+                <li>Git, CI/CD, Agile</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
